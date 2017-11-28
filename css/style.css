@@ -71,6 +71,7 @@ body {
     animation-name: moveInLeft;
     animation-duration: 3s;
     animation-delay: 1s;
+    animation-fill-mode: backwards;
 }
 
 .heading-primary-sub {
@@ -80,6 +81,7 @@ body {
     letter-spacing: 17.4px;
 
     animation: moveInRight 3s 1s;
+    animation-fill-mode: backwards;
     }
 
 @keyframes moveInLeft {
@@ -146,7 +148,7 @@ body {
     top: 0px;
     left: 0px;
     z-index: -1;
-    transition: all .4s;
+    transition: all .6s;
 }
 
 .btn-white::after { 
@@ -174,4 +176,5 @@ body {
 
 .btn-animated {
     animation: moveInBottom 3s 1s;
+    animation-fill-mode: backwards;
 }
