@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/banmi/starter/issues"
   },
-  "homepage": "https://github.com/banmi/starter#readme"
+  "homepage": "https://github.com/banmi/starter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
